@@ -1,0 +1,10 @@
+   0 pwd
+   1 touch /tmp/file.txt && echo "Hi to everyone!" >> /tmp/file.txt
+   2 cat /tmp/file.txt
+   3 echo "Start" >> /tmp/file.txt
+   4 date >> /tmp/file.txt
+   5 mkdir /opt/task/ && cp /tmp/file.txt /opt/task/start.txt
+   6 cat /opt/task/start.txt
+   7 ls -l /bin | tail -4 >> /opt/task/start.txt
+   8 cat /opt/task/start.txt
+   9 history > /tmp/history.txt && export_file /tmp/history.txt
